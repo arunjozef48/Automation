@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" verbose="1" >
+	<listeners>
+		<listener class-name="com.utils.TestListener"/>
+<!--		<listener class-name="main.java.com.fpa.commonLib.RetryListener"/>-->
+	</listeners>
+	<test name="chrome test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.test.TestLogin"/>-->
+		</classes>
+	</test>
+<!--	<test  name="ie test" >-->
+<!--		<parameter name="browser" value="firefox" />-->
+<!--		<classes>-->
+<!--			<class name="com.test.TestNotFound"/>&ndash;&gt;-->
+<!--		</classes>-->
+<!--	</test>-->
+</suite>
+
